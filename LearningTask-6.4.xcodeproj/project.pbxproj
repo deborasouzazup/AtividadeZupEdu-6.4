@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2EDF603A2931414000CE8558 /* Tipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF60392931414000CE8558 /* Tipo.swift */; };
+		2EDF603C2931464400CE8558 /* PokemonViewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF603B2931464400CE8558 /* PokemonViewCellTableViewCell.swift */; };
 		581DF66C2805DD56004943A2 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581DF66B2805DD56004943A2 /* PokemonViewController.swift */; };
 		587E8C8728046BA1002FD712 /* PokemonStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8C8628046BA1002FD712 /* PokemonStore.swift */; };
 		587E8C8B280490E7002FD712 /* TipoDePokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587E8C8A280490E7002FD712 /* TipoDePokemonView.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		2EDF60392931414000CE8558 /* Tipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tipo.swift; sourceTree = "<group>"; };
+		2EDF603B2931464400CE8558 /* PokemonViewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewCellTableViewCell.swift; sourceTree = "<group>"; };
 		581DF66B2805DD56004943A2 /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
 		587E8C8628046BA1002FD712 /* PokemonStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonStore.swift; sourceTree = "<group>"; };
 		587E8C8A280490E7002FD712 /* TipoDePokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoDePokemonView.swift; sourceTree = "<group>"; };
@@ -51,7 +53,6 @@
 				58E02EAB280443DA00CAA3FA /* LaunchScreen.storyboard */,
 				58E02EA2280443D800CAA3FA /* SceneDelegate.swift */,
 				58E02EA0280443D800CAA3FA /* AppDelegate.swift */,
-				58E02EAE280443DA00CAA3FA /* Info.plist */,
 			);
 			path = "Supportive Files ";
 			sourceTree = "<group>";
@@ -110,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				587E8C8A280490E7002FD712 /* TipoDePokemonView.swift */,
+				2EDF603B2931464400CE8558 /* PokemonViewCellTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				2EDF6037293109B700CE8558 /* Supportive Files  */,
+				58E02EAE280443DA00CAA3FA /* Info.plist */,
 				58E02EA9280443DA00CAA3FA /* Assets.xcassets */,
 				58E02EA6280443D800CAA3FA /* Main.storyboard */,
 				581DF6652805DC40004943A2 /* Persistence */,
@@ -218,6 +221,7 @@
 				587E8C8728046BA1002FD712 /* PokemonStore.swift in Sources */,
 				2EDF603A2931414000CE8558 /* Tipo.swift in Sources */,
 				581DF66C2805DD56004943A2 /* PokemonViewController.swift in Sources */,
+				2EDF603C2931464400CE8558 /* PokemonViewCellTableViewCell.swift in Sources */,
 				58E02EA1280443D800CAA3FA /* AppDelegate.swift in Sources */,
 				58E02EA3280443D800CAA3FA /* SceneDelegate.swift in Sources */,
 				587E8C8D2805C41B002FD712 /* HeaderView.swift in Sources */,
