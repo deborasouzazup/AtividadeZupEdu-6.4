@@ -7,9 +7,9 @@
 
 import UIKit
 
-class PokemonViewCell: UITableViewCell {
+class PokemonTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var PokemonNameLabel: UILabel!
+    @IBOutlet weak var pokemonNameLabel: UILabel!
     
     @IBOutlet weak var tipoDePokemonView: TipoDePokemonView!
     
@@ -18,7 +18,7 @@ class PokemonViewCell: UITableViewCell {
     @IBOutlet weak var valorEvolucaoPokemonLabel: UILabel!
     
     func setup (_ pokemon: Pokemon) {
-        PokemonNameLabel.text = pokemon.nome
+        pokemonNameLabel.text = pokemon.nome
         tipoDePokemonView.set(pokemon.tipo)
         pokemonsImageView.image = UIImage(named: pokemon.referencia)
         valorEvolucaoPokemonLabel.text = pokemon.evolucoes?
