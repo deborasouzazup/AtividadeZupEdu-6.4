@@ -21,16 +21,18 @@ enum Tipo: String {
 }
 
 struct Pokemon {
-    var nome: String
-    var referencia: String
-    var evolucao: [Pokemon]?
-    var tipo: [Tipo]
     
-    init(nome: String, referencia: String, evolucao: [Pokemon]? = nil, tipo: [Tipo]) {
-        self.nome = nome
+    var referencia: String
+    var nome: String
+    var tipo: [Tipo]
+    var evolucoes: [Pokemon]?
+    
+    
+    init( referencia: String,nome: String, tipo: [Tipo], evolucoes: [Pokemon]? = nil) {
         self.referencia = referencia
+        self.nome = nome
         self.tipo = tipo
-        self.evolucao = evolucao
+        self.evolucoes = evolucoes
     }
 }
 
